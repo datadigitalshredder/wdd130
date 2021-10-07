@@ -35,6 +35,7 @@ h6 {
 
 body {
   background-color: #577E4E;
+  font-size: 14px;
 }
 
 nav a {
@@ -43,4 +44,8 @@ nav a {
 
 main {
   background-color: #FFFACD;
+}
+
+p {
+  font-family: "Tahoma", "Serif";
 }
