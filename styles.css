@@ -32,6 +32,10 @@ h6 {
   text-align: center;
 }
 
-body {
-  backgro
+#background-color {
+  background-color: #577E4E;
+}
+
+nav a {
+    color: #242C2E;
 }
