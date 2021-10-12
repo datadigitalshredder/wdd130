@@ -27,6 +27,8 @@ h6 {
 #content {
   max-width: 960px;
   margin: 0 auto;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 1.1em;
 }
 
 .home-paragraph-3 {
