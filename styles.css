@@ -30,7 +30,14 @@ h6 {
   font-family: tahoma, verdana, sans-serif;
   font-size: 1.1em;
   padding: 1em;
+}
 
+.logo-box {
+  padding: 25px;
+}
+
+.banner-box {
+  padding: 25px;
 }
 
 .home-paragraph-3 {
@@ -51,5 +58,5 @@ main {
 }
 
 p {
-  font-family: "Tahoma", "Serif";
+  font-family: tahoma, sans-serif;
 }
