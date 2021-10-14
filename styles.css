@@ -6,7 +6,8 @@ h1 {
 h2 {
   background-color: #DAA520;
   color: #00008B;
-  padding: 15px;
+  padding: 1em;
+  height
 }
 
 h3 {
@@ -26,19 +27,18 @@ h6 {
 }
 
 #content {
+  font-family: tahoma, verdana, sans-serif;
   max-width: 960px;
   margin: 0 auto;
-  font-family: tahoma, verdana, sans-serif;
-  font-size: 1.1em;
-  padding: 1em;
 }
 
 .logo-box {
-  padding: 10px;
+  padding: 1em;
+  font-size: 1.1em;
 }
 
 .banner-box {
-  padding: 10px;
+  padding: 1em;
 }
 
 .home-paragraph-3 {
@@ -63,6 +63,6 @@ main {
 }
 
 p {
-  font-family: tahoma, sans-serif;
-  padding: 15px
+  font-family: tahoma, serif;
+  padding: 1em
 }
