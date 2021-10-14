@@ -5,7 +5,8 @@ h1 {
 
 h2 {
   background-color: #DAA520;
-  color: #00008B
+  color: #00008B;
+  padding: 15px;
 }
 
 h3 {
@@ -33,15 +34,19 @@ h6 {
 }
 
 .logo-box {
-  padding: 25px;
+  padding: 10px;
 }
 
 .banner-box {
-  padding: 25px;
+  padding: 10px;
 }
 
 .home-paragraph-3 {
   text-align: center;
+}
+
+.home-right-img {
+  padding: 1em
 }
 
 body {
@@ -59,4 +64,5 @@ main {
 
 p {
   font-family: tahoma, sans-serif;
+  padding: 15px
 }
