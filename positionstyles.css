@@ -35,21 +35,24 @@
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1f 1fr;
+  grid-gap: 20px
+    
 }
 .red2 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  grid-column-start: 1;
-  grid-row-start: 1;
+  grid-column: 1;
+  grid-row 1;
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  grid-column-start: 1.5;
-  grid-row-start: 1.5;
+  grid-column: 1.5;
+  grid-row: 1.5;
 } 
 .yellow2 {
   width: 100px; 
