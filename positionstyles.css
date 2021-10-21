@@ -41,15 +41,15 @@
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  grid-column: 1/2;
-  grid-row: 1/2;
+  grid-column-start: 1;
+  grid-row-start: 1;
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  grid-column: 2/3;
-  grid-row: 1/2;
+  grid-column-start: 1.5;
+  grid-row-start: 1.5;
 } 
 .yellow2 {
   width: 100px; 
