@@ -141,29 +141,41 @@
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   height: 400px;
 }
 .red5 { 
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: red; 
+  grid-column: 1/3;
+  grid-row: 1/2;
 } 
 .green5 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  float: left;
+  grid-column: 1/2;
+  grid-row: 2;
 
 } 
 .yellow5 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-column: 1/3;
+  grid-row: 2;
 
 } 
 .blue5 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: blue; 
+  grid-column: 1/3;
+  grid-row: 3/4;
 } 
 /* Activity 6 styles */ 
 .content6 {
