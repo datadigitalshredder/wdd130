@@ -34,16 +34,22 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr
 }
 .red2 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  grid-column: 1/2;
+  grid-row: 1/2;
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  grid-column: 2/3;
+  grid-row: 1/2;
 } 
 .yellow2 {
   width: 100px; 
