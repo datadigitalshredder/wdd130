@@ -200,7 +200,7 @@
 .blue6 {
   width: 100px; 
   height: 100px; 
-  background-color: white;
+  background-color: green;
   grid-column: 2/3;
   grid-row: 5/6;
 } 
