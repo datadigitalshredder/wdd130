@@ -74,6 +74,7 @@
   /* This is the parent of the activity 3 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 10px
 }
 .red3 {
   width: 100%; 
@@ -82,19 +83,18 @@
   grid-column: 1/3;
 } 
 .green3 {
-  width: 300px; 
+  width: 400px; 
   height: 200px; 
   background-color: green;
   justify-self: start;
-  column-gap: 20px
+  
 } 
 .yellow3 {
-  width: 300px; 
+  width: 400px; 
   height: 200px; 
-  background-color: gold; 
-  grid-column: 2;
+  background-color: gold;
   justify-self: end;
-  column-gap: 10px
+  
 } 
 .blue3 {
   width: 100%;
@@ -105,27 +105,35 @@
 /* Activity 4 styles */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
-  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 300px;
 }
 .red4 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
+  height: 100%; 
   background-color: red; 
+  grid-column: 1/2;
+  grid-row: 1/3;
 } 
 .green4 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: green; 
+  grid-column: 1;
 } 
 .yellow4 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: gold; 
+  grid-column: 2;
 } 
 .blue4 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: blue; 
+  grid-column: 3;
 } 
 /* Activity 5 styles */ 
 .content5 {
