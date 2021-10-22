@@ -178,7 +178,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1f 1fr 1fr 1fr 1fr;
-  grid-gap: 0px
+  
 }
 
 .red6 {
@@ -187,22 +187,8 @@
   background-color: red;
   grid-column: 1/5;
   grid-row: 1/3;
-} 
-
-.blue6 {
-  width: 400px; 
-  height: 400px; 
-  background-color: blue;
-  grid-column: 2/6;
-  grid-row: 2/6;
-} 
-
-.blue6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: green;
-  grid-column: 2/3;
-  grid-row: 5/6;
+  z-index: 1;
+  justify-items: stretch;
 } 
 
 .green6 {
@@ -212,6 +198,8 @@
   color: green;
   grid-column: 1/3;
   grid-row: 5/7;
+  z-index: 3;
+  justify-items: stretch;
 } 
 
 .yellow6 {
@@ -220,9 +208,19 @@
   background-color: gold; 
   grid-column: 5/7;
   grid-row: 3/7;
+  z-index: 3;
+  justify-items: stretch;
   
 } 
-
+.blue6 {
+  width: 400px; 
+  height: 400px; 
+  background-color: blue;
+  grid-column: 2/6;
+  grid-row: 2/6;
+  z-index: 2;
+  justify-items: stretch;
+} 
 
 /* Do not make any changes below here */
 .activity {
