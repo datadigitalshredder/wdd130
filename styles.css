@@ -42,8 +42,9 @@ h6 {
   font-size: 1.1em;
 }
 
-.banner-box {
-  padding: 1em;
+.banner-box img {
+  width: 100%;
+  padding: em;
 }
 
 .home-paragraph-3 {
