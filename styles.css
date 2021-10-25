@@ -55,6 +55,8 @@ h6 {
   padding: 1em
 }
 
+
+
 body {
   background-color: #577E4E;
 }
@@ -76,3 +78,7 @@ p {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
+
+.home-headline-1 {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
