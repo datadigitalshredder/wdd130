@@ -38,7 +38,7 @@ h6 {
 }
 
 .logo-box {
-  width: 50%;
+ 
   padding: 1em;
   font-size: 1.1em;
 }
@@ -122,4 +122,9 @@ img {
 section {
   grid-column: 1/6;
   grid-row: 7/8;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 110px auto; 
 }
