@@ -128,3 +128,9 @@ header {
   display: grid;
   grid-template-columns: 110px auto; 
 }
+
+nav ul {
+    list-style: none; /* removes the bullets! */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));          
+}
