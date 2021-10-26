@@ -157,7 +157,14 @@ footer {
   grid-row-height: 55px;
 }
 
-.social img {
+footer p {
+  grid-column: 1/2;
+  grid-row-height: 55px;
+}
+
+footer img {
+  grid-column: 2/5;
+  grid-row-height: 55px;
   width: 5%;
   
 }
