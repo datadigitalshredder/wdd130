@@ -126,6 +126,7 @@ section {
 header {
   display: grid;
   grid-template-columns: 110px auto; 
+  align-items: center;
 }
 
 nav ul {
@@ -133,7 +134,7 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));     
   margin: 0;
-  align-items: center;
+  
 }
 
 nav a:visited {
@@ -141,5 +142,10 @@ nav a:visited {
   background-color: #E7B1B1;
 }
 
- nav a:hover { 
+nav a:hover { 
+   
+}
+
+nav a:active {
+  color: blue;
 }
