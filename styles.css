@@ -136,6 +136,10 @@ nav ul {
   align-items: center;
 }
 
-nav a:link {
-  color: blue;
+nav a:visited {
+  color: #CC5128;
+  background-color: #E7B1B1;
+}
+
+ nav a:hover { 
 }
