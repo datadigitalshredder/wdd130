@@ -48,8 +48,8 @@ h6 {
 }
 
 .logo-box img {
-  height: 100%;
-  width: 95%;
+  height: 95%;
+  width: 91%;
   
 }
 
@@ -161,8 +161,7 @@ nav a:visited {
 }
 
 nav a:hover { 
-  color: hotpink;
-  
+  color: hotpink; 
 }
 
 nav a:active {
@@ -184,6 +183,7 @@ div .social {
   height: 55px;
   grid-gap: 0;
   justify-items: right; 
+  
 }
 
 .social-1 {
