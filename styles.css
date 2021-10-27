@@ -173,7 +173,7 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
   grid-template-rows: 1fr;
   height: 55px;
-  align-items: center;
+  
 }
 
 div .social {
@@ -183,6 +183,7 @@ div .social {
   height: 55px;
   grid-gap: 0;
   justify-items: right; 
+  align-items: center;
   
 }
 
@@ -194,8 +195,9 @@ div .social {
   margin: 5px 0 5px 10px; 
   padding: 5px 0 5px 10px;
   border: 5px;
-  height: 80%;
+  height: 50%;
   width: 80%; 
+  
 }
 
 .social-2 {
