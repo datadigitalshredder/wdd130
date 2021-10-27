@@ -157,11 +157,12 @@ footer {
   grid-row-height: 55px;
 }
 
-.social a {
+div .social-1 {
   list-style: none;
-  display: grid;
+  
   width: 5px;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-  margin: 5px;
-  
+  grid-template-rows: 1fr;
+  grid-row-height: 55px;
+  margin: 5px;  
 }
