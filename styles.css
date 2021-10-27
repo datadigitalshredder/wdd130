@@ -152,40 +152,46 @@ nav a:active {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   grid-template-rows: 1fr;
   grid-row-height: 55px;
+  align-items: center;
 }
 
-div .social-1 {
+div .social {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  grid-template-rows: 1fr;
+  grid-row-height: 55px;
   
+}
+.social-1 {
+  display: grid;
   list-style: none;
   grid-column: 2/3;
-  
   grid-row: 1/2;
   grid-row-height: 55px;
   margin: 5px; 
-  
+  width: 55px;
 }
 
-div .social-2 {
-  
+.social-2 {
+  display: grid;
   list-style: none;
   grid-column: 3/4;
-  
   grid-row: 1/2;
   grid-row-height: 55px;
   margin: 5px; 
-  
+  width: 55px;
 }
 
-div .social-3 {
+.social-3 {
   display: grid;
   list-style: none;
   grid-column: 4/5;
-  
   grid-row: 1/2;
   grid-row-height: 55px;
   margin: 5px; 
+  width: 55px;
   
 }
