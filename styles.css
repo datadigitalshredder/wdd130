@@ -38,12 +38,13 @@ h6 {
 
 .logo-box {
  
-  padding: 1em;
+  padding: 0em;
   font-size: 1.1em;
 }
 
 .logo-box img {
-  width: 180%;
+  width: 100%;
+  padding: 0em;
 }
 
 .banner-box img {
@@ -70,6 +71,7 @@ body {
 
 nav a {
     color: #DAA520;
+  text-decoration
 }
 
 main {
@@ -142,12 +144,13 @@ nav ul {
 }
 
 nav a:visited {
-  color: #CC5128;
+  color: purple;
   background-color: #E7B1B1;
 }
 
 nav a:hover { 
-   underline;
+  color: hotpink;
+  
 }
 
 nav a:active {
