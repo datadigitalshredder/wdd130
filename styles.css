@@ -70,8 +70,8 @@ body {
 }
 
 nav a {
-    color: #DAA520;
-  text-decoration
+  color: #DAA520;
+  
 }
 
 main {
@@ -145,7 +145,6 @@ nav ul {
 
 nav a:visited {
   color: purple;
-  background-color: #E7B1B1;
 }
 
 nav a:hover { 
