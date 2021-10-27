@@ -44,7 +44,7 @@ h6 {
 
 .banner-box img {
   width: 100%;
-  padding: 1em;
+  padding: 0em;
 }
 
 .home-paragraph-3 {
@@ -52,7 +52,7 @@ h6 {
 }
 
 .home-right-img-1 {
-  padding: 1em
+  padding: 0em
 }
 
 .home-right-img-2 {
@@ -176,8 +176,7 @@ div .social {
   padding: 5px 0px 5px 10px;
   border: 5px 0px 5px 10px;
   height: 6em;
-  width: 6em;
-  
+  width: 100%; 
 }
 
 .social-2 {
@@ -189,8 +188,7 @@ div .social {
   padding: 5px 0px;
   border: 5px 0px;
   height: 6em;
-  width: 6em;
-  
+  width: 100% 
 }
 
 .social-3 {
@@ -202,6 +200,6 @@ div .social {
   padding: 5px 0px;
   border: 5px 0px;
   height: 6em;
-  width: 6em;
+  width: 100%;
   
 }
