@@ -10,6 +10,8 @@ h2 {
   height: 0.5em;
   margin: .6em;
   margin-bottom: -30px;
+  border-top: 7px double;
+  border-bottom: 7px double;
 }
 
 h3 {
@@ -37,9 +39,10 @@ h6 {
 }
 
 .logo-box {
+  height: 200%;
+  width: 110%;
   font-size: 1.1em;
   border: 1px;
-  border-radius: 0 0 0 0 ;
 }
 
 .logo-box img {
@@ -96,7 +99,7 @@ img {
 .home-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 1em;
+  gap: 0.5em;
 }
 
 .home-headline-1 {
@@ -113,6 +116,7 @@ img {
 .home-right-img-1 {
   grid-column: 4/6;
   grid-row: 1/3;
+  width: 95%;
 }
  
 .home-right-img-2 {
@@ -142,10 +146,12 @@ header {
 }
 
 nav ul {
+  
   list-style: none; 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));     
-  margin: 0;  
+  margin: 0;
+  
 }
 
 nav a:visited {
