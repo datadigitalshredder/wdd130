@@ -152,13 +152,8 @@ nav a:active {
 
 footer {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   grid-template-rows: 1fr;
-  grid-row-height: 55px;
-}
-
-footer p {
-  grid-column: 1/2;
-  grid-row: 1/2;
   grid-row-height: 55px;
 }
 
