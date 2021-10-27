@@ -169,5 +169,11 @@ footer .social {
   grid-row-height: 55px;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   width: 5%;
+}
+
+footer div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));     
+  margin: 0;
   
 }
