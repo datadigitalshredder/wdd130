@@ -37,14 +37,20 @@ h6 {
 }
 
 .logo-box {
- 
+  
   padding: 0em;
   font-size: 1.1em;
+  
+  border-radius: 50px 50px 0 0 ;   
+        padding: 0.5em;
+        border: 1px solid #a43312;
 }
 
 .logo-box img {
+  height: 100%;
   width: 100%;
   padding: 0em;
+  margin-bottom: 0em;
 }
 
 .banner-box img {
@@ -64,14 +70,12 @@ h6 {
   padding: 1em
 }
 
-
 body {
   background-color: #577E4E;
 }
 
 nav a {
-  color: #DAA520;
-  
+  color: #DAA520; 
 }
 
 main {
@@ -139,8 +143,7 @@ nav ul {
   list-style: none; 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));     
-  margin: 0;
-  
+  margin: 0;  
 }
 
 nav a:visited {
@@ -206,6 +209,5 @@ div .social {
   padding: 5px 0px;
   border: 5px 0px;
   height: 80%;
-  width: 80%;
-  
+  width: 80%; 
 }
