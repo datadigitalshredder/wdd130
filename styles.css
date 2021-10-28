@@ -78,6 +78,7 @@ h6 {
 
 body {
   background-color: #577E4E;
+  margin: 0;
 }
 
 nav a {
@@ -146,14 +147,14 @@ header {
   align-items: center;
 }
 
+
 nav ul {
-  
-  list-style: none; 
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));     
-  margin: 0;
-  background-color: #FFFACD;
-  
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1em, 1fr));
+    margin: 0;
+    background-color: #FFFACD;
+    padding: 15px;
 }
 
 nav a:visited {
@@ -173,12 +174,9 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
   grid-template-rows: 1fr;
   height: 55px;
-  line-height: 1.2px;
-  
 }
 
 footer p {
-  align-items: center;
   justify-items: left; 
 }
 
@@ -201,7 +199,7 @@ div .social {
   border: 5px;
   height: 40px;
   width: 80%; 
-  align-items: top;
+  align-items: center;
   
 }
 
@@ -235,4 +233,7 @@ div .social {
     .home-grid {
     display: block;
     }
+    
 } 
+
+ 
