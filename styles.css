@@ -233,7 +233,9 @@ div .social {
     .home-grid {
     display: block;
     }
-    
+    nav ul {
+    display: block;
+  }
 } 
 
  
