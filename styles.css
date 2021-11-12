@@ -59,10 +59,6 @@ h6 {
   padding: 0em;
 }
 
-.home-paragraph-3 {
-  text-align: center;
-}
-
 .home-right-img-1 {
   
   border: 1px solid #ccc;
@@ -71,6 +67,13 @@ h6 {
 }
 
 .home-right-img-2 {
+  padding: 1em;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 5px 1px 5px #999;
+}
+
+.home-right-img-3 {
   padding: 1em;
   border: 1px solid #ccc;
   padding: 5px;
@@ -152,7 +155,6 @@ img {
 .home-right-img-3 {
   grid-column: 4/6;
   grid-row: 8/10;
-  width: 100%;
 }
 section {
   grid-column: 1/6;
