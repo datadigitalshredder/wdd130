@@ -48,13 +48,14 @@ h6 {
 }
 
 .logo-box img {
-  height: 95%;
+  height: 90%;
   width: 91%;
   
 }
 
 .banner-box img {
   width: 100%;
+  height: 50%;
   padding: 0em;
 }
 
