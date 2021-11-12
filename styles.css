@@ -138,9 +138,19 @@ img {
 }
 
 .home-headline-3 {
-  
+  grid-column: 1/4;
+  grid-row: 8/9;
 }
 
+.home-paragraph-3 {
+  grid-column: 2/4;
+  grid-row: 9/10;
+}
+
+.home-right-img-3 {
+  grid-column: 4/6;
+  grid-row: 8/10;
+}
 section {
   grid-column: 1/6;
   grid-row: 7/8;
