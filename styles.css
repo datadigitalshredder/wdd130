@@ -103,6 +103,7 @@ img {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 0.5em;
+  
 }
 
 .home-headline-1 {
@@ -140,6 +141,7 @@ img {
 .home-headline-3 {
   grid-column: 1/4;
   grid-row: 8/9;
+  justify-items: left;
 }
 
 .home-paragraph-3 {
@@ -150,6 +152,7 @@ img {
 .home-right-img-3 {
   grid-column: 4/6;
   grid-row: 8/10;
+  width: 100%;
 }
 section {
   grid-column: 1/6;
