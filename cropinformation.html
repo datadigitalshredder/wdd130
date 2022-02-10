@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CropTech-Agri | Crop Information | WDD 130-20 </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="content">
+      <header>
+          <div class="logo-box"><!-- logo will go here -->
+            <img src="https://cdn.glitch.me/4ef98f34-40fc-431b-9e51-8b5ec5047bb1%2FLogo_CropTech-Agri3.png?v=1636632453528" alt="CropTech-Agri Logo"/>
+          </div>
+          <nav>
+              <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pesticides.html">Pesticides</a>
+                <li><a href="contactus.html">Contact Us</a></li>
+              </ul>
+          </nav>
+      </header>
+      <main class="cropinfo">
+        <!-- <div class="banner-box">
+          <img src="https://cdn.glitch.me/5cc5e3c5-1781-43fe-9c50-1e42e5191030%2Frsz_garden.jpg?v=1636722420496" alt="The banner image"
+          />
+        </div> -->
+        <h2 class="crops">
+          Specified Crops
+        </h2>
+        <div class="brassicas-box">
+          <img src="https://cdn.glitch.me/4ef98f34-40fc-431b-9e51-8b5ec5047bb1%2Frsz_fresh-organic-brassica-romanesco-vegetable-sale-market.jpg?v=1637332233559" alt="Brassicas image"
+          />
+        </div>
+        <h3 class="brassicas">
+          Brassicas 
+        </h3>
+        
+          
+        
+        <button id="myBtn">More on Brassicas</button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p class="brassicasp">
+          These include vegetables such as cabbage, cauliflower, brocolli, and mustard. Carry out a nutrient analysis prior to planting. Brassicas typically require high phosphorus and potassium and lower nitrogen blends at planting (Compound C, Vegetable blend or equivalent). High basal rates can be required,  however, avoid placing the fertilizer too close  to the seedling to avoid fertilizer toxicity. Nitrogen applications can be made as a topdressing  throughout the season.</p>
+          </div>
+        </div>
+        <script>
+        // Get the modal Braciccas
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        </script>
+        <p class="brassicas1">Common Pest: Diamondblack moth</p>
+        <div class="cotton-box">
+          <img src="https://cdn.glitch.me/4ef98f34-40fc-431b-9e51-8b5ec5047bb1%2Frsz_bunch-white-cotton-branch.jpg?v=1637332226314" alt="Cotton image"
+          />
+        </div>
+        <h3 class="cotton">
+          Cotton
+        </h3>
+        <button id="myBtn2">More on Cotton</button>
+        <div id="myModal2" class="modal2">
+          <div class="modal-content2">
+            <span class="close2">&times;</span>
+            <p class="cottonp"> 
+          Carry out a nutrient analysis prior to planting. Cotton typically requires high phosphorus and potassium and lower nitrogen blends at planting (Cotton blend 6:15:12 +5S +0.1B or Compound L 5:17:10 +6S + 0.1B). Avoid placing the fertilizer too close to the seedling to avoid fertilizer toxicity. Calcium Ammonium Nitrate (CAN) can be topdressed throughout the vegetative growth stages of the crop.</p> 
+          </div>
+        </div>
+        <script>
+          // Get the modal Cotton
+        var modal2 = document.getElementById("myModal2");
+
+        // Get the button that opens the modal
+        var btn2 = document.getElementById("myBtn2");
+
+        // Get the <span> element that closes the modal
+        var span2 = document.getElementsByClassName("close2")[0];
+
+        // When the user clicks the button, open the modal 
+        btn2.onclick = function() {
+          modal2.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span2.onclick = function() {
+          modal2.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal2) {
+            modal2.style.display = "none";
+          }
+        }
+        </script>
+        <p class="cotton1"><a href="contactus.html">Contact us</a> for the nutrient range we offer.</p> 
+        
+        <div class="maize-box">
+          <img src="https://cdn.glitch.me/4ef98f34-40fc-431b-9e51-8b5ec5047bb1%2Frsz_front-view-corn-field-which-plants-have-reached-their-maximum-height.jpg?v=1637332221017" alt="Maize image"
+          />
+        </div> 
+        <h3 class="maize">
+          Maize
+        </h3>
+        <button id="myBtn3">More on Maize</button>
+        <div id="myModal3" class="modal3">
+          <div class="modal-content3">
+            <span class="close3">&times;</span>
+            <p class="maizep">Carry out a nutrient analysis prior to planting. Maize typically requires a high phosphorus blend and moderate amounts of potassium/nitrogen at planting (Comp. D, Double D or Cereal blend). Nitrogen applications can be made as a topdressing up until tasseling. Topdressing applications of potassium can in some instances improve grain development and assist with reducing drought stress.</p> 
+          </div>
+        </div>
+        <script>
+          // Get the modal Maize
+        var modal3 = document.getElementById("myModal3");
+
+        // Get the button that opens the modal
+        var btn3 = document.getElementById("myBtn3");
+
+        // Get the <span> element that closes the modal
+        var span3 = document.getElementsByClassName("close3")[0];
+
+        // When the user clicks the button, open the modal 
+        btn3.onclick = function() {
+          modal3.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span3.onclick = function() {
+          modal3.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal3) {
+            modal3.style.display = "none";
+          }
+        }
+        </script>
+        <p class="maize1">Common pest: Fall armyworm.</p> 
+
+        <div class="onions-box">
+          <img src="https://cdn.glitch.me/4ef98f34-40fc-431b-9e51-8b5ec5047bb1%2Frsz_high-angle-arrangement-with-onions.jpg?v=1637332209846" alt="Onions image"
+          />
+        </div>
+        <h3 class="onions">
+          Onions
+        </h3>
+        <button id="myBtn4">More on Onions</button>
+        <div id="myModal4" class="modal4">
+          <div class="modal-content4">
+            <span class="close4">&times;</span>
+            <p class="onionsp">Carry out a nutrient analysis prior to planting. Onions typically require high phosphorus and potassium and lower nitrogen blends at planting (Compound C, Vegetable blend or equivalent). High basal rates can be required and often broadcasted and mixed into the soil. It is best to apply to the soil at least one week prior to planting/transplanting) to avoid fertilizer toxicity. Calcium Nitrate applications can be made as a topdressing throughout the season. Apply routinely at low rates.</p> 
+          </div>
+        </div>
+        <script>
+          // Get the modal Onions
+        var modal4 = document.getElementById("myModal4");
+
+        // Get the button that opens the modal
+        var btn4 = document.getElementById("myBtn4");
+
+        // Get the <span> element that closes the modal
+        var span4 = document.getElementsByClassName("close4")[0];
+
+        // When the user clicks the button, open the modal 
+        btn4.onclick = function() {
+          modal4.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span4.onclick = function() {
+          modal4.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal4) {
+            modal4.style.display = "none";
+          }
+        }
+        </script>
+        <p class="onions1">
+          Common Pest: Thrips
+        </p>
+        <div class="peas-box">
+          <img src="https://cdn.glitch.me/4ef98f34-40fc-431b-9e51-8b5ec5047bb1%2Frsz_scattered-peas-from-bucket-with-asparagus-bok-choy-lettuce-green-pods-side-view-wooden-wall.jpg?v=1637332203401" alt="The peas image"
+          />
+        </div>
+        <h3 class="peas">
+          Peas
+        </h3>
+        <button id="myBtn5">More on Peas</button>
+        <div id="myModal5" class="modal5">
+          <div class="modal-content5">
+            <span class="close5">&times;</span>
+            <p class="peasp">Carry out a nutrient analysis prior to planting. Peas are best suited to well drained fertile soils (sandy loam). Peas typically requires a blend with high potassium, phosphorus and only small amounts of nitrogen at planting ("Compound C"). Potassium, Nitrogen, and Calcium products should be topdressed through out the season.</p> 
+          </div>
+        </div>
+        <script>
+          // Get the modal Peas
+        var modal5 = document.getElementById("myModal5");
+
+        // Get the button that opens the modal
+        var btn5 = document.getElementById("myBtn5");
+
+        // Get the <span> element that closes the modal
+        var span5 = document.getElementsByClassName("close5")[0];
+
+        // When the user clicks the button, open the modal 
+        btn5.onclick = function() {
+          modal5.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span5.onclick = function() {
+          modal5.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal5) {
+            modal5.style.display = "none";
+          }
+        }
+        </script>
+        <p class="peas1">
+          <a href="contactus.html">Contact us</a> for the nutrient range we offer.
+        </p>
+        <div class="potatoes-box">
+          <img src="https://cdn.glitch.me/4ef98f34-40fc-431b-9e51-8b5ec5047bb1%2Frsz_green-plants-growing-from-ground.jpg?v=1637332195323" alt="Potatoes image"
+          />
+        </div>
+        <h3 class="potatoes">
+          Potatoes
+        </h3>
+        <button id="myBtn6">More on Potatoes</button>
+        <div id="myModal6" class="modal6">
+          <div class="modal-content6">
+            <span class="close6">&times;</span>
+            <p class="potatoesp">Carry out a nutrient analysis prior to planting. Potatoes typically require high phosphorus and potassium and lower nitrogen blends at planting (Potatoe Blend 8:18:24 5S + 0.06B + 0.4 Zn or equivalent). Very high basal rates can be required, however, avoid placing the fertilizer too close to the seedling to avoid fertilizer toxicity. Potassium Nitrate, SOP or Calcium Nitrate can be topdressed throughout the vegetative growth stages of the crop.</p>
+          </div>
+        </div>
+        <script>
+          // Get the modal Potatoes
+        var modal6 = document.getElementById("myModal6");
+
+        // Get the button that opens the modal
+        var btn6 = document.getElementById("myBtn6");
+
+        // Get the <span> element that closes the modal
+        var span6 = document.getElementsByClassName("close6")[0];
+
+        // When the user clicks the button, open the modal 
+        btn6.onclick = function() {
+          modal6.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span6.onclick = function() {
+          modal6.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal6) {
+            modal6.style.display = "none";
+          }
+        }
+        </script>
+        <p class="potatoes1">
+          Common Pest: Leaf miner
+        </p>
+        <div class="soyabeans-box">
+          <img src="https://cdn.glitch.me/4ef98f34-40fc-431b-9e51-8b5ec5047bb1%2Frsz_soybean-isolated-white-background%20(1).jpg?v=1637332186911" alt="Soya beans image"
+          />
+        </div>
+        <h3 class="soyabeans">
+          Soya Beans
+        </h3>
+        <button id="myBtn7">More on Soya Beans</button>
+        <div id="myModal7" class="modal7">
+          <div class="modal-content7">
+            <span class="close7">&times;</span>
+            <p class="soyabeansp">Carry out a nutrient analysis prior to planting. Soyas are best suited to clayey loam soils (Red soils). Soya typically requires a high potassium blend, moderate amounts of phosphorus, and only small amounts of nitrogen at planting ("Soya blend"). Excessive use of Nitrogen is not recommended as it can negatively affect root nodulation which will be counterproductive to the crop.</p> 
+          </div>
+        </div>
+        <script>
+          // Get the modal Soya Beans
+        var modal7 = document.getElementById("myModal7");
+
+        // Get the button that opens the modal
+        var btn7 = document.getElementById("myBtn7");
+
+        // Get the <span> element that closes the modal
+        var span7 = document.getElementsByClassName("close7")[0];
+
+        // When the user clicks the button, open the modal 
+        btn7.onclick = function() {
+          modal7.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span7.onclick = function() {
+          modal7.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal7) {
+            modal7.style.display = "none";
+          }
+        }
+        </script>
+        <p class="soyabeans1">
+          <a href="contactus.html">Contact us</a> for the nutrient range we offer.
+        </p>
+        <div class="tobacco-box">
+          <img src="https://cdn.glitch.me/4ef98f34-40fc-431b-9e51-8b5ec5047bb1%2Frsz_female-researchers-examined-tobacco-leaves.jpg?v=1637332178959" alt="Tobacco image"
+          />
+        </div>
+        <h3 class="tobacco">
+          Tobacco
+        </h3>
+        <button id="myBtn8">More on Tobacco</button>
+        <div id="myModal8" class="modal8">
+          <div class="modal-content8">
+            <span class="close8">&times;</span>
+            <p class="tobaccop">Carry out a nutrient analysis prior to planting. Tobacco typically requires a high phosphorus and potassium and lower nitrogen (with low chlorine) blends at planting (Tobacco blend 10:24:20 + 6S (max 4% Cl) or 6:28:23 +5S +0.1B (max 4% Cl) equivalent). High basal rates can be required. Avoid placing the fertilizer too close to the seedling to avoid fertilizer toxicity. Potassium Nitrate, SOP or Calcium Nitrate, Ammonium Nitrate or Urea can be topdressed throughout the vegetative growth stages of the crop, however, in most cases, early applications are advised. The exact amount of nitrogen required for a tobacco crop is determined by soil texture, timing of ploughing, rainfall, residual nitrogen and crop variety type. Excessive nitrogen can lead to the crop maturing slowly and increasing the susceptibility to diseases.</p> 
+          </div>
+        </div>
+        <script>
+          // Get the modal Tobacco
+        var modal8 = document.getElementById("myModal8");
+
+        // Get the button that opens the modal
+        var btn8 = document.getElementById("myBtn8");
+
+        // Get the <span> element that closes the modal
+        var span8 = document.getElementsByClassName("close8")[0];
+
+        // When the user clicks the button, open the modal 
+        btn8.onclick = function() {
+          modal8.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span8.onclick = function() {
+          modal8.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal8) {
+            modal8.style.display = "none";
+          }
+        }
+        </script>
+        <p class="tobacco1">
+          Common pest: Eelworm
+        </p>
+        <div class="tomatoes-box">
+          <img src="https://cdn.glitch.me/4ef98f34-40fc-431b-9e51-8b5ec5047bb1%2Frsz_green-yellow-red-tomatoes-hanged-from-their-plants-inside-greenhouse.jpg?v=1637332172668" alt="Tomatoes image"
+          />
+        </div>
+        <h3 class="tomatoes">
+          Tomatoes
+        </h3>
+        <button id="myBtn9">More on Tomatoes</button>
+        <div id="myModal9" class="modal9">
+          <div class="modal-content9">
+            <span class="close9">&times;</span>
+            <p class="tomatoesp">Carry out a nutrient analysis prior to planting. Tomatoes typically require high phosphorus and potassium and lower nitrogen blends at planting (Compound C, Vegetable blend or equivalent). High basal rates can be required, however, avoid placing the fertilizer too close to the seedling to avoid fertilizer toxicity. Potassium Nitrate, SOP or Calcium Nitrate can be top-dressed throughout the vegetative growth stages of the crop.</p> 
+          </div>
+        </div>
+        <script>
+          // Get the modal Tomatoes
+        var modal9 = document.getElementById("myModal9");
+
+        // Get the button that opens the modal
+        var btn9 = document.getElementById("myBtn9");
+
+        // Get the <span> element that closes the modal
+        var span9 = document.getElementsByClassName("close9")[0];
+
+        // When the user clicks the button, open the modal 
+        btn9.onclick = function() {
+          modal9.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span9.onclick = function() {
+          modal9.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal9) {
+            modal9.style.display = "none";
+          }
+        }
+        </script>
+        <p class="tomatoes1">
+          Common pest: Tuta absoluta
+        </p>
+        <div class="wheat-box">
+          <img src="https://cdn.glitch.me/4ef98f34-40fc-431b-9e51-8b5ec5047bb1%2Frsz_tractor-traces-wheat-field-rural-area-cloudy-sky.jpg?v=1637332168160" alt="Wheat field image"
+          />
+        </div>
+        <h3 class="wheat">
+          Wheat/ Barley
+        </h3>
+        <button id="myBtn10">More on Wheat/ Barley</button>
+        <div id="myModal10" class="modal10">
+          <div class="modal-content10">
+            <span class="close10">&times;</span>
+            <p class="wheatp">Carry out a nutrient analysis prior to planting. Wheat typically requires a high phosphorus blend and moderate amounts of potassium/nitrogen at planting (Comp. D, Double D or Cereal blend). Nitrogen applications can be made as a topdressing up until flowering. Late nitrogen applications can increase the protein concentration of the grain which may be required according to the purchasing market.</p> 
+          </div>
+        </div>
+        <script>
+         // Get the modal Wheat
+        var modal10 = document.getElementById("myModal10");
+
+        // Get the button that opens the modal
+        var btn10 = document.getElementById("myBtn10");
+
+        // Get the <span> element that closes the modal
+        var span10 = document.getElementsByClassName("close10")[0];
+
+        // When the user clicks the button, open the modal 
+        btn10.onclick = function() {
+          modal10.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span10.onclick = function() {
+          modal10.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal10) {
+            modal10.style.display = "none";
+          }
+        }
+        </script>
+        <p class="wheat1">
+          Common pest: Quelea
+        </p>
+        <!-- <div class="banner-box">
+          <img src="https://cdn.glitch.me/5cc5e3c5-1781-43fe-9c50-1e42e5191030%2Frsz_garden.jpg?v=1636722420496" alt="The banner image"
+          />
+        </div> -->
+      </main>
+      
+      <footer>
+        <img class="footerlogo" src="https://cdn.glitch.me/4ef98f34-40fc-431b-9e51-8b5ec5047bb1%2FCropTech%20Agri%20mini-Logo.jpg?v=1637327366060" alt="CropTech-Agri Logo"/>
+        <p class="footer-contacts">
+          <a href="contactus.html">Contact Us</a>
+        </p>
+        <p class="copyright">&copy; 2021 CropTech-Agri - Innocent Hove - WDD130-20</p>
+        <a class="siteplan" href="site-plan.html">Site Plan</a>
+        <div class="social">
+          <a class="social-1" href="https://www.facebook.com/" target="_blank"><img src="https://cdn.glitch.me/5cc5e3c5-1781-43fe-9c50-1e42e5191030%2Ffacebook.png?v=1633605088924" alt="Facebook icon"></a>
+          <a class="social-2" href="https://twitter.com/" target="_blank"><img src="https://cdn.glitch.me/5cc5e3c5-1781-43fe-9c50-1e42e5191030%2Ftwitter.png?v=1633605076104" alt="Twitter icon"></a>
+          <!--<a class="social-3" href="https://www.instagram.com/" target="_blank">
+            <img src="https://cdn.glitch.me/5cc5e3c5-1781-43fe-9c50-1e42e5191030%2Finstagram.png?v=1633605084507" alt="Instagram icon">
+          </a> -->
+        </div>
+      </footer>
+      <!-- <a href="site-plan.html">Site Plan</a>
+      <h1>Welcome to Glitch</h1>
+      <p>
+        Make something <strong>amazing</strong> with the web! -->
+      <!-- </p> -->
+    </div>
+  </body>
+</html>
