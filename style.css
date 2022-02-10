@@ -1,0 +1,1053 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: #62AB49;
+  font-family: sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  width: 100%;
+  margin: 0;
+  color: #444;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 300px auto; 
+  align-items: center;
+}
+
+nav a {
+  color: #ABB356; 
+}
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1em, 1fr));
+    margin: 1px;
+    background-color: #7A7A7A;
+    padding: 5px;
+    align-items: center;
+    text-align:center;
+    width: 99%;
+
+}
+
+nav a:visited {
+  color: purple;
+}
+
+nav a:hover { 
+  color: hotpink; 
+}
+
+nav a:active {
+  color: #396E94;
+}
+
+main {
+  background-color: white;
+}
+
+p {
+  font-family: tahoma, serif;
+  padding: 1em
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+  width: 100%;
+  height: 0.5em;
+  /* margin: 0 auto; */
+  margin-top: 20px;
+  margin-bottom: -20px;
+  margin-left: 10px;
+}
+
+h3 {
+  font-family: "Merriweather", serif;
+  font-size: 26px;
+  background-color: #ABB356;
+  color: #000000;
+  padding: 1em;
+  height: 0.5em;
+  margin: 0.6em;
+  margin-bottom: -30px;
+  
+  border-top: 7px double;
+  border-color: #62AB49;
+}
+
+#content {
+  font-family: tahoma, verdana, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-box {
+  height: 100%;
+  width: 70%;
+  font-size: 1.1em;
+  border: 1px;
+  
+}
+
+.logo-box img {
+  height: 90%;
+  width: 91%;
+  
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5em;
+}
+
+.banner-box img {
+  width: 100%;
+  height: 50%;
+  padding: 0em;
+  grid-area: 1/1/2/4;
+}
+
+.croptech {
+  grid-area: 4/1/5/4;
+  margin-top: -40px;
+}
+
+.motto {
+  grid-area: 3/1/4/4;
+  color: #ABB356;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.pesticides-box {
+  grid-area: 5/1/6/2;
+}
+.pesticides-box img {
+  height: 100%;
+}
+.pesticides-headline {
+  grid-area: 6/1/7/2;
+}
+.pesticides-paragraph {
+  grid-area: 7/1/8/2;
+}
+
+.fertilizers-box {
+  grid-area: 5/2/6/3;
+}
+
+.fertilizers-box img {
+  height: 100%;
+}
+.fertilizers-headline {
+  grid-area: 6/2/7/3;
+}
+.fertilizers-paragraph {
+  grid-area: 7/2/8/3;
+}
+
+.services-box {
+  grid-area: 5/3/6/4;
+}
+.services-box img {
+  height: 100%;
+}
+.services-headline {
+  grid-area: 6/3/7/4;
+}
+.services-paragraph {
+  grid-area: 7/3/8/4;
+}
+
+.banner-box1 {
+  width: 100%;
+  padding: 0em;
+  grid-area: 8/1/9/4;
+}
+
+.banner-box1 img {
+  height: 100%;
+  width: 100%;
+  padding: 0em;
+}
+
+/* Pesticides page */
+.pesticides-page {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.banner-box2 {
+  grid-area: 1/1/2/5;
+}
+
+.products-h1 {
+  grid-area: 2/1/3/5;
+  height: 100%;
+  width: 100%;
+}
+.insecticides-box img {
+  grid-area: 3/1/4/2;
+  height: 100%;
+  width: 98%;
+  padding: 0em;
+  margin-top: 40px;
+  margin-left: 5px;
+}
+.insecticides-headline {
+  grid-area: 4/1/5/2;
+  margin-top: 40px;
+  font-size: 30px;
+  justify-content: center;
+  margin-left: 5px;
+  border-top: 7px double;
+  border-color: #62AB49;
+  background-color: #ABB356;
+  padding: 5px 40px;
+}
+.insecticideslist {
+  grid-area: 5/1/6/2;
+  margin-top: -20px;
+}
+
+.insecticideslist a:visited {
+  color: purple;
+}
+.insecticideslist a:hover {
+  color: hotpink; 
+}
+.insecticideslist a:active {
+  color: #396E94; 
+}
+
+.fungicides-box img {
+  grid-area: 3/2/4/3;
+  height: 100%;
+  width: 100%;
+  padding: 0em;
+  margin-top: 40px;
+  
+}
+.fungicides-headline {
+  grid-area: 4/2/5/3;
+  margin-top: 40px;
+  font-size: 30px;
+  justify-items: center;
+  padding: 0em;
+  border-top: 7px double;
+  border-color: #62AB49;
+  background-color: #ABB356;
+  padding: 5px 40px;
+}
+.fungicideslist {
+  grid-area: 5/2/6/3;
+  margin-top: -20px;
+}
+.fungicideslist a:visited {
+  color: purple;
+}
+.fungicideslist a:hover {
+  color: hotpink; 
+}
+.fungicideslist a:active {
+  color: #396E94; 
+}
+.herbicides-box img {
+  grid-area: 3/3/4/4;
+  height: 100%;
+  width: 100%;
+  padding: 0em;
+  margin-top: 40px;
+}
+.herbicides-headline {
+  grid-area: 4/3/5/4;
+  margin-top: 40px;
+  font-size: 30px;
+  border-top: 7px double;
+  border-color: #62AB49;
+  background-color: #ABB356;
+  padding: 5px 40px;
+}
+.herbicideslist {
+  grid-area: 5/3/6/4;
+  margin-top: -20px;
+}
+.herbicideslist a:visited {
+  color: purple;
+}
+.herbicideslist a:hover {
+  color: hotpink; 
+}
+.herbicideslist a:active {
+  color: #396E94; 
+}
+.services-box1 img {
+  grid-area: 3/4/4/5;
+  height: 100%;
+  width: 98%;
+  padding: 0em;
+  margin-top: 40px;
+  margin-right: 10px;
+} 
+.services1-headline {
+  grid-area: 4/4/5/5;
+  margin-top: 40px;
+  font-size: 30px;
+  border-top: 7px double;
+  border-color: #62AB49;
+  background-color: #ABB356;
+  padding: 5px 40px;
+  margin-right: 10px;
+}
+.serviceslist1 {
+  grid-area: 5/4/6/5;
+  margin-top: -20px;
+}
+.serviceslist1 a:visited {
+  color: purple;
+}
+.serviceslist1 a:hover {
+  color: hotpink; 
+}
+.serviceslist1 a:active {
+  color: #396E94; 
+}
+
+ul {
+  list-style: none;
+}
+.banner-box21 {
+  grid-area: 6/1/7/5;
+  width: 100%;
+  height: 100%;
+  padding: 0em;
+  margin-bottom: -10px;
+}
+
+/* Crop information page */
+.cropinfo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  
+}
+img {
+  height: 100%;
+}
+.crops {
+  grid-area: 1/1/2/5;
+  justify-self: center;
+}
+.brassicas-box {
+  grid-area: 2/1/4/2;
+  height: 100%;
+}
+.brassicas {
+  grid-area: 2/2/3/3;
+  margin-left: -5px;
+}
+.brassicasp {
+  grid-area: 3/2/5/3;
+}
+.brassicas1 {
+  grid-area: 5/1/6/3;
+}
+
+.cotton-box {
+  grid-area: 2/3/4/4;
+  height: 100%;
+}
+.cotton {
+  grid-area: 2/4/3/5;
+  margin-left: -5px;
+}
+.cottonp {
+  grid-area: 3/4/5/5;
+}
+.cotton1 {
+  grid-area: 5/3/6/5;
+}
+.maize-box {
+  grid-area: 6/1/8/2;
+  height: 100%;
+}
+
+.maize {
+  grid-area: 6/2/7/3;
+  margin-left: -5px;
+}
+.maizep {
+  grid-area: 7/2/9/3;
+}
+.maize1 {
+  grid-area: 9/1/10/3;
+}
+.onions-box {
+  grid-area: 6/3/8/4;
+  height: 100%;
+}
+.onions {
+  grid-area: 6/4/7/5;
+  margin-left: -5px;
+}
+.onionsp {
+  grid-area: 7/4/9/5;
+}
+.onions1 {
+  grid-area: 9/3/10/5;
+}
+.peas-box {
+  grid-area: 10/1/12/2;
+  height: 100%;
+}
+.peas {
+  grid-area: 10/2/11/3;
+  margin-left: -5px;
+}
+.peasp {
+  grid-area: 11/2/13/3;
+}
+.peas1 {
+  grid-area: 13/1/14/3;
+}
+.potatoes-box {
+  grid-area: 10/3/12/4;
+  height: 100%;
+}
+.potatoes {
+  grid-area: 10/4/11/5;
+  margin-left: -5px;
+}
+.potatoesp {
+  grid-area: 11/4/13/5;
+}
+.potatoes1 {
+  grid-area: 13/3/14/5;
+}
+.soyabeans-box {
+  grid-area: 14/1/16/2;
+  height: 100%;
+}
+.soyabeans {
+  grid-area: 14/2/15/3;
+  margin-left: -5px;
+}
+.soyabeansp {
+  grid-area: 15/2/17/3;
+}
+.soyabeans1 {
+  grid-area: 17/1/18/3;
+}
+.tobacco-box {
+  grid-area: 14/3/16/4;
+  height: 100%;
+}
+.tobacco {
+  grid-area: 14/4/15/5;
+  margin-left: -5px;
+}
+.tobaccop {
+  grid-area: 15/4/17/5;
+}
+.tobacco1 {
+  grid-area: 17/3/18/5;
+}
+.tomatoes-box {
+  grid-area: 18/1/20/2;
+  height: 100%;
+}
+.tomatoes {
+  grid-area: 18/2/19/3;
+  margin-left: -5px;
+}
+.tomatoesp {
+   grid-area: 19/2/21/3;
+}
+.tomatoes1 {
+  grid-area: 21/1/22/3;
+}
+.wheat-box {
+  grid-area: 18/3/20/4;
+  height: 100%;
+}
+.wheat {
+  grid-area: 18/4/19/5;
+  margin-left: -5px;
+}
+.wheatp {
+  grid-area: 19/4/21/5;
+}
+.wheat1 {
+  grid-area: 21/3/22/5;
+}
+
+/* The Modal (background) for the 2nd Subpage- Crop Information */
+/* Brasicas */
+#myBtn {
+  font-size: 20px;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  border-radius: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Cotton */
+#myBtn2 {
+  font-size: 20px;
+}
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  border-radius: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Maize */
+#myBtn3 {
+  font-size: 20px;
+  grid-area: 7/2/8/3;
+  height: 100%;
+  
+}
+.modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  border-radius: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content3 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close3 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Onions */
+#myBtn4 {
+  font-size: 20px;
+  grid-area: 7/4/8/5;
+  height: 100%;
+  
+  
+}
+.modal4 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  border-radius: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content4 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close4 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Peas */
+#myBtn5 {
+  font-size: 20px;
+  grid-area: 11/2/12/3;
+  height: 100%;
+  
+  
+}
+.modal5 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  border-radius: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content5 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close5 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close5:hover,
+.close5:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Potatoes */
+#myBtn6 {
+  font-size: 20px;
+  grid-area: 11/4/12/5;
+  height: 100%;
+  
+  
+}
+.modal6 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  border-radius: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content6 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close6 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close6:hover,
+.close6:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Soya beans */
+#myBtn7 {
+  font-size: 20px;
+  grid-area: 15/2/16/3;
+  height: 90%;
+  
+  
+}
+.modal7 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  border-radius: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content7 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close7 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close7:hover,
+.close7:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Tobacco */
+#myBtn8 {
+  font-size: 20px;
+  grid-area: 15/4/16/5;
+  height: 90%;
+  
+  
+}
+.modal8 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  border-radius: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content8 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close8 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close8:hover,
+.close8:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Tomatoes */
+#myBtn9 {
+  font-size: 20px;
+  grid-area: 19/2/20/3;
+  height: 90%;
+  
+  
+}
+.modal9 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  border-radius: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content9 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close9 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close9:hover,
+.close9:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Wheat */
+#myBtn10 {
+  font-size: 20px;
+  grid-area: 19/4/20/5;
+  height: 90%;
+
+  
+}
+.modal10 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  border-radius: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content10 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close10 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close10:hover,
+.close10:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Footer, all pages */
+footer {
+  display: grid; 
+  grid-template-columns: 20% 40% 20% 10% 10%;
+  grid-template-rows: 1fr;
+  align-items: center;
+  padding-top: 0.2em;
+  margin: 0;
+}
+
+.footerlogo {
+  grid-area: 1/1/3/2;
+  align-self: center;
+  
+}
+
+.footer-contacts {
+  grid-area: 1/2/2/3;
+  align-items: center;
+  font-size: 20px; 
+  align-self: center;
+}
+.copyright {
+  grid-area: 2/2/3/4;
+  align-items: center;
+  margin-right: 0;
+  font-size: 20px;
+  align-self: center;
+}
+
+.siteplan {
+  grid-area: 1/3/2/4;
+  align-items: start;
+  justify-items: left;
+  font-size: 20px;
+  margin: 10px;
+
+}
+
+.siteplan:visited {
+  color: purple;
+}
+.siteplan:hover {
+  color: hotpink; 
+}
+.siteplan:active {
+  color: #396E94; 
+}
+
+div .social {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1em, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  justify-content: right;
+  margin-right: 0px;
+  margin-top: -10px;
+}
+
+.social-1 img {
+  display: grid;
+  grid-area: 1/1/3/2;
+  margin: 5px 0 5px 10px; 
+  padding: 5px 0 5px 10px;
+  border: 5px;
+  height: 50px;
+  width: 100%; 
+  align-items: center;
+  justify-items: right;
+}
+  
+.social-2 img {
+  display: grid;
+  grid-area: 1/2/3/3;
+  margin: 5px 0 5px 10px; 
+  padding: 5px 0 5px 10px;
+  border: 5px;
+  height: 50px;
+  width: 100%; 
+  align-items: center;
+  justify-items: right;
+}
+
+@media screen and (max-width: 550px) { 
+    .home-grid {
+    display: block;
+    }
+    nav ul {
+    display: block;
+  }
+} 
